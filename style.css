@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Annie+Use+Your+Telescope&family=Artifika&family=Atomic+Age&family=Barrio&family=Belleza&family=Benne&family=Bruno+Ace+SC&family=Cormorant:wght@300&family=Crafty+Girls&family=EB+Garamond&family=Federo&family=Fresca&family=Genos:ital@1&family=Geo&family=Glass+Antiqua&family=IM+Fell+DW+Pica+SC&family=IM+Fell+French+Canon+SC&family=Indie+Flower&family=Irish+Grover&family=Kotta+One&family=Kufam&family=Lacquer&family=Macondo&family=Major+Mono+Display&family=Marck+Script&family=Megrim&family=Play&family=Playfair:opsz@5..1200&family=Sedgwick+Ave&family=Share&family=Space+Mono&family=Sulphur+Point&family=Trade+Winds&family=Ubuntu+Mono&family=VT323&family=Zilla+Slab+Highlight&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./Pictures/railway-2818748_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin: 0;
+}
+
+#leaf{
+    position: absolute;
+    left: 4%;
+    
+  
+}
+
+#leaf2{
+    position: absolute;
+    right: 4%;
+    
+}  
+
+table{
+    width: 1000px;
+    height: 500px;
+    border-collapse: collapse;
+    background-color: white;
+    opacity: 0.8;
+    outline: 50px solid rgba(51, 46, 43, 0.7);
+}
+
+
+#table{
+    position: relative;
+}
+
+#book{
+    z-index: 10;
+    position: absolute;
+    bottom: -23%;
+    left: -10%;
+ 
+
+   
+
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    width: 80px;
+    height: 50px;
+}
+
+
+th{
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+   
+}
+
+
+td{
+    font-size: 1.2em;
+    font-family: 'Artifika', serif;
+  
+  
+}
+
+.light{
+    background-color: rgb(255, 255, 255);
+}
+
+.dark{
+    background-color: rgb(166, 148, 117);
+    color: white;
+} 
+
+
+@media only screen and (max-width: 1160px){
+    table{
+        width: 900px;
+}
+
+th{
+    font-size: 1.3em;
+}
+
+
+td{
+    font-size: 1em;
+ 
+}
+
+}
+
+@media only screen and (max-width: 1070px){
+    table{
+        width: 800px;
+}
+
+td, th { 
+    width: 70px;
+  
+}
+
+
+}
+
+
+@media only screen and (max-width: 970px){
+    table{
+        width: 700px;
+        height: 400px;
+}
+
+}
+
+@media only screen and (max-width: 870px){
+    table{
+        width: 600px;
+}
+
+    th{
+        font-size: 0.9em;
+    }
+
+
+    td{
+        font-size: 0.7em;
+    
+    }
+
+    td, th { 
+        width: 60px;
+      
+    }
+    
+}
+
+@media only screen and (max-width: 770px){
+    table{
+        height: 300px;
+        width: 500px;
+}
+
+td, th { 
+    width: 40px;
+  
+}
+
+
+
+}
+
+
+
+
+
