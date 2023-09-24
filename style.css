@@ -13,7 +13,7 @@ body{
     background-position: center;
     position: relative;
     margin: 0;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #leaf{
@@ -39,7 +39,7 @@ table{
 }
 
 
-#table{
+#table-div{
     position: relative;
 }
 
@@ -108,6 +108,18 @@ td{
         width: 800px;
 }
 
+#leaf{
+    position: absolute;
+    left: 10%;
+    
+  
+}
+
+
+#leaf2{
+    display: none;
+}  
+
 td, th { 
     width: 70px;
   
@@ -124,6 +136,8 @@ td, th {
 }
 
 }
+
+
 
 @media only screen and (max-width: 870px){
     table{
@@ -163,6 +177,12 @@ td, th {
 }
 
 
+@media only screen and (max-width: 600px){
+    body{
+        overflow: scroll;
 
+        min-width: 880px;
+    } 
+}
 
 
